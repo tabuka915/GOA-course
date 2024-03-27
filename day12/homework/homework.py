@@ -31,11 +31,12 @@
 #print(fullname[8:20])
 
 
-best_films=["jango", "dedpool", "fastx",]
+best_films=["jango", "dedpool", "fastx" "john weak",]
 
 print (best_films[0:2])
 print (best_films[1:3])
 print (best_films[0:1])
 print (best_films[0:3])
+
 
 

@@ -19,6 +19,8 @@ print(b)
 
 
 
+
+
 str1="goal oriented academy"
 str2=" "
 for i in str1:

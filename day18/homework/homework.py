@@ -71,12 +71,12 @@
 
 
 #9
-# = "cola, pepsi sfanta sprunk" 
+list= "cola, pepsi sfanta sprunk" 
 
-#x = txt.split()
+x = list.split()
 
-#x = "-".join(txt)
+x = "-".join(list)
 
-#print(x)
+print(x)
 
 

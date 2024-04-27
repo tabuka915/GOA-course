@@ -25,3 +25,24 @@ def manual_count(collection, item_to_count):
 names = [True, True, False, True]
 
 print(manual_count(names, True))
+
+
+
+
+
+
+def manual_index(collection, value):
+
+    for index in range(0, len(collection)):
+        if collection[index] == value:
+            return index
+    
+    return -1
+
+
+print(manual_index("Luka", "k"
+
+
+
+
+

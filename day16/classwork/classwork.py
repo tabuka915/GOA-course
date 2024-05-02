@@ -6,7 +6,7 @@ def my_sum_func(numbers_list):
     
     print(sum)
 
-my_sum_func([1,2,3,4,5])
+my_sum_func([1,2,3.5,4,5])
 
 
 
@@ -15,19 +15,19 @@ my_sum_func([1,2,3,4,5])
 
 
 
-def find_min_max(numbers_list):
- min = numbers_list[1]
- max = numbers_list[1]
+#def find_min_max(numbers_list):
+# min = numbers_list[1]
+# max = numbers_list[1]
     
- for i in numbers_list:
-    if min > i:
-     min = i
-    if max < i:
-     max = i
+ #for i in numbers_list:
+#    if min > i:
+ #    min = i
+ #   if max < i:
+ #    max = i
     
-print(min,max)
+#print(min,max)
 
-find_min_max([1,2,3,4,5])
+#find_min_max([1,2,3,4,5])
 
 
 
@@ -65,16 +65,16 @@ func([1,2,3,4,-1,-3])
 
 
 
-def sum(mylist):
-    sumno = 0
-    for i in mylist:
-        sumno = sumno +i
+#def sum(mylist):
+ #   sumno = 0
+#    for i in mylist:
+#       sumno = sumno +i
         
-    return sumno
+#    return sumno
 
-lilister = [1,2,3,4,5]
+#lilister = [1,2,3,4,5]
 
-print(sum(lilister))
+#print(sum(lilister))
 
 
 

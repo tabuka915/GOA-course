@@ -40,7 +40,7 @@ def manual_index(collection, value):
     return -1
 
 
-print(manual_index("Luka", "k"
+print(manual_index("Luka", "k"))
 
 
 

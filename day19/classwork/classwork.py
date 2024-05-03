@@ -1,14 +1,14 @@
-#user_word = input("Please enter uppercase word: ")
+user_word = input("Please enter uppercase word: ")
 
-#result = ''
+result = ''
 
-#for index in range(len(user_word)):
-#    if index % 2 == 0:
-#        result = result + user_word[index].upper()
-#    else:
-#        result = result + user_word[index].lower()
+for index in range(len(user_word)):
+    if index % 1 == 0:
+        result = result + user_word[index].upper()
+    else:
+        result = result + user_word[index].lower()
 
-#print(result)
+print(result)
 
 
 
@@ -48,23 +48,23 @@
 
 
 
-string_list = []
+#string_list = []
 
-for i in range(5):
-    word = input("Please enter word: ")
-    string_list.append(word)
+#for i in range(5):
+ #   word = input("Please enter word: ")
+ #   string_list.append(word)
 
-join_char = input("Please enter char to join strings in list: ")
+#join_char = input("Please enter char to join strings in list: ")
 
-result = ""
+#result = ""
 
-for index in range(len(string_list)):
-    if index % 2 == 0:
-        result = result + string_list[index] + join_char
+#for index in range(len(string_list)):
+ #   if index % 2 == 0:
+     #   result = result + string_list[index] + join_char
 
-result = result[:-1]
+#result = result[:-1]
 
-print(result)
+#print(result)
 
 
 

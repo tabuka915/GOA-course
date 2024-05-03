@@ -1,9 +1,9 @@
-def my_find(colection,value_to_find):
-    for index in range (len(colection)):
-        if colection[index ] == value_to_find:
-           return index
+#def my_find(colection,value_to_find):
+ #   for index in range (len(colection)):
+#        if colection[index ] == value_to_find:
+ #          return index
 
-print(my_find("lile","i"))  
+#print(my_find("lile","i"))  
 
 def my_join(string_list,join_char):
     result= ''

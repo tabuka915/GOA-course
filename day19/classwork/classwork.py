@@ -1,14 +1,14 @@
-user_word = input("Please enter uppercase word: ")
+#user_word = input("Please enter uppercase word: ")
 
-result = ''
+#result = ''
 
-for index in range(len(user_word)):
-    if index % 1 == 0:
-        result = result + user_word[index].upper()
-    else:
-        result = result + user_word[index].lower()
+#for index in range(len(user_word)):
+#    if index % 1 == 0:
+#        result = result + user_word[index].upper()
+#    else:
+#        result = result + user_word[index].lower()
 
-print(result)
+#print(result)
 
 
 
@@ -38,29 +38,28 @@ print(result)
 
 
 
-#def manual_find(collection, find_item):
-#    for index in range(len(collection)):
-#        if collection[index] == find_item:
-#            return index
-#    return -1
-
-#print(manual_find([1,2,3,4,5], 8))
+def manual_find(collection, find_item):
+    for index in range(len(collection)):
+        if collection[index] == find_item:
+            return index
+    return -1
+print(manual_find([1,2,3,4,5], 8))
 
 
 
 #string_list = []
 
 #for i in range(5):
- #   word = input("Please enter word: ")
- #   string_list.append(word)
+#    word = input("Please enter word: ")
+#    string_list.append(word)
 
 #join_char = input("Please enter char to join strings in list: ")
 
 #result = ""
 
 #for index in range(len(string_list)):
- #   if index % 2 == 0:
-     #   result = result + string_list[index] + join_char
+#    if index % 2 == 0:
+#        result = result + string_list[index] + join_char
 
 #result = result[:-1]
 

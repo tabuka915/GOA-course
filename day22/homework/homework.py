@@ -15,7 +15,7 @@ print(manual_pop(numbers,0))
 #1
 
 def manual_count(collection, item_to_count):
-    count = 1
+    count = 0
 
     for item in collection:
         if item == item_to_count:
@@ -27,7 +27,7 @@ def manual_count(collection, item_to_count):
 names = [1, 2, 3, 1]
 
 
-#print(manual_count(names, 1))
+print(manual_count(names, 1))
 
 
 

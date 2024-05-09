@@ -23,16 +23,16 @@
 
 
 
-#def func(number_list):
-#    sum = 0
-#
-#    
-#    for num in number_list:
-#        if num >= 5:
-#           sum = sum + num                
-#    print(sum)
+def func(number_list):
+    sum = 0
 
-#func([1,2,3,4,5])
+    
+    for num in number_list:
+        if num >= 1:
+           sum = sum + num                
+    print(sum)
+
+func([1,2,3,4,5])
 
 
 

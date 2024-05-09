@@ -7,11 +7,11 @@
 #print(result2)
 #print(result3)
 
-food=["carrot", "watrmelon","lemon","cucumber"]
+#food=["carrot", "watrmelon","lemon","cucumber"]
 
-y=len(food)
+#y=len(food)
 
-print(y)
+#print(y)
 #ამ კომანდის დახმარებთ ჩვენ შეგვილია დავამატოთ ან ჩავსვათ სტრინგი ლისტში
 #fruits = ['apple', 'banana', 'cherry']
 
@@ -26,11 +26,11 @@ print(y)
 #fruits.pop(1)
 
 #ამ კომანდის დახმარებით  ჩვენ შეგვილი გავიგოთ რა რიცხვს იკავებს სტრინგი
-mylist = ["apple", "orange", "cherry"]
+#mylist = ["apple", "orange", "cherry"]
 
-x = len(mylist)
+#x = len(mylist)
 
-print(x)
+#print(x)
 
 #ამ კომანდის დახმარებით ჩვენ შეგვილილია დავამატოთ სტრინგი ლისტში
 #fruits = ["apple", "banana", "cherry"]

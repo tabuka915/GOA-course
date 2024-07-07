@@ -7,15 +7,15 @@ print(b)
 
 
 # condition statmenti
-#input("please Enter your palindrom word:")
+input("please Enter your palindrom word:")
 
-#corect_palindrom="civic"
+corect_palindrom="civic"
 
-#if corect_palindrom >= "toko":
+if corect_palindrom >= "toko":
 
-#    print("corect")
+    print("corect")
 #else:
-#   print("uncorect")
+   print("uncorect")
 
 
 

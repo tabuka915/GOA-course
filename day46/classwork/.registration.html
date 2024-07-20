@@ -1,0 +1,31 @@
+
+<html>
+<body>
+    <center>
+<h2>JavaScript Prompt</h2>
+<p>this is information about alert box</p>
+<p>An alert box is often used if you want to make sure information comes through to the user.</p>
+<p>When an alert box pops up, the user will have to click "OK" to proceed.</p>
+<h1>confrim box</h1>
+<p>A confirm box is often used if you want the user to verify or accept something.</p>
+<p></p>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+    
+function myFunction() {
+  let text;
+  let person = prompt("Please enter your realname:", "among us");
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    text = "Hello " + person + "! How are you today amigo?";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+</center>
+</body>
+</html>

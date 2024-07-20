@@ -1,0 +1,39 @@
+
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(25, 165, 165);
+  position: fixed;
+  top: 3px;
+  width: 100%;
+  box-shadow: 5px 10px rgb(78, 78, 78);
+}
+
+
+.header{
+    display: flex;
+    margin-right: 500px;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background:whitesmoke;
+  color: slategray;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; 
+}

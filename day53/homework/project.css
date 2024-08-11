@@ -1,0 +1,53 @@
+header{
+    width: 100%;
+    height: 100px;
+    
+    background-color: rgba(134, 131, 131, 0.5);
+
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+
+.text2{
+     width: 550px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+
+body{
+    background-image: url("image\ copy\ 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+button{
+   width: 100px;
+   height: 50px;
+   background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    overflow: hidden;
+
+    color: black;
+}

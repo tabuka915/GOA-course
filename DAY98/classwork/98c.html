@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ფონის ფერის არჩევა</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 350px;
+        }
+    </style>
+</head>
+<body>
+    <h1>choose background colour</h1>
+    <input type="color" id="colorPicker">
+    <button onclick="changeBackgroundColor()">change background</button>
+
+    <script>
+        function changeBackgroundColor() {
+            var color = document.getElementById("colorPicker").value;
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>

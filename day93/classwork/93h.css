@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0b2429;
+}
+
+.wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #f3ac3c;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.triangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #998235;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    transform: translate(-50%, -50%);
+}
